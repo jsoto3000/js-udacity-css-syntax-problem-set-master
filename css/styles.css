@@ -1,0 +1,293 @@
+/* Style an Image Quiz */
+
+
+.kitten-image {
+            border-style: dashed;
+            border-width: thick;
+            border-color: #e9967a;
+            cursor: pointer;
+            box-shadow: 10px 10px 5px gray
+        }
+
+/* udacity-text */
+
+.udacity-text {
+            font-family: Helvetica, Arial, sans-serif;
+            color: #8001ff;
+            text-transform: uppercase;
+            font-size: 60px;
+            text-decoration: underline;
+            /* border-bottom: 10px solid #8001ff */;
+            /* border-bottom-width: 10px solid #8001ff */;
+
+    	}
+
+
+/* Writing Selectors Exercise */
+
+#menu {
+    	text-align: center;
+}
+
+.item-selector {
+  color: red;
+}
+
+.picture-selector {
+  border-radius: 5px;
+}
+
+.description-selector {
+  font-style: italic;
+}
+
+/* Using Attributes Quiz */
+
+/*
+body {
+  font-family: Arial;
+}
+*/
+
+#to-do-list {
+  width: 400px;
+  background: #2e3d49;
+  padding: 10px 20px;
+  font-family: Arial; /* for consoolidated css put font here */
+}
+
+.title-list {
+  color: #fff;
+}
+
+.underline-list {
+  text-decoration: underline;
+}
+
+.list {
+  list-style-type: circle;
+  text-align: left;
+  font-size: 16px;
+  color: #1fba58;
+  line-height: 24px;
+}
+
+.finished-list {
+  color: #f4442f;
+  text-decoration: line-through;
+}
+
+
+/* Slack Card Quiz */
+
+/*
+* {
+  box-sizing: border-box;
+}
+   
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+}
+*/
+
+/* for consolidated css substitued below */
+
+selection * {
+  box-sizing: border-box;
+}
+
+#slack-card {
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+
+}
+
+.card {
+  height: 475px;
+  width: 325px;
+  box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+  border-radius: 4px;
+}
+
+.top {
+  height: 55%;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid #ddd;
+  /* Setting a background image */
+  background-image: url(svg/profile-paceholder.svg);
+  padding: 0px 16px;
+}
+
+.name {
+  padding-top: calc(475px * 0.40);
+  margin: 0px;
+}
+
+.status {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 4px;
+
+  border-radius: 5px;
+  background-color: #60D156;
+}
+
+.title {
+  margin-top: 8px;
+}
+
+.middle {
+  height: 5%;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 0px 16px;
+}
+.time {
+  color: #444;
+  font-size: 0.8em;
+  padding-top: 0.2em;
+}
+.bottom {
+  height: 40%;
+  border-radius: 0px 0px 4px 4px;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+}
+.profile-action {
+  display: block;
+  width: 100%;
+  height: 32px;
+  /* You could also just set the font family explicitly like we did for the body. */
+  font-family: inherit;
+  font-size: 1em;
+  text-align: left;
+  /* The border-radius property allows for round corners. */
+  border-radius: 4px;
+  border: 0px;
+  background-color: white;
+  /* This is how we changed the cursor to be a hand instead of an arrow. */
+  cursor: pointer;
+}
+.profile-action:hover {
+  background-color: #00A5D2;
+  color: white;
+}
+
+/* Link to a Stylesheet Quiz */
+
+/*
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+*/
+
+/* for consolidated css substitued below */
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+
+}
+
+.menu{
+	width: 15%;
+}
+
+.portfolio {
+	width: 85%;
+}
+
+.item{
+	width: 100%;
+	clear: both;
+}
+
+.item img {
+	float: left
+}
+
+.item span {
+	display: table-cell;
+	vertical-align: middle;
+	height: 240px;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+
+/* udacity logo */
+
+/*
+ * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+
+      margin: 0;
+      padding: 0;
+      background: #ddd;
+    }
+ */
+
+    header *{
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+      color: #697681;
+
+      background: white;
+
+      margin: 0;
+      padding: 0;
+
+    }
+    
+    .section-udacity {
+      
+      margin: 0;
+      padding: 0;
+      background: #ddd;
+
+    }
+
+    .flex-container {
+      display: flex;
+    }
+
+    .space-between {
+      justify-content: space-between;
+    }
+
+    .vertical-centerer {
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .header-content {
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .logo {
+      width: 200px;
+      display: inline-block;
+      margin: 10px 0px;
+    }
+
+    .menu-udacity {
+      list-style: none;
+      list-style-type: none;
+    }
+
+    .menu-udacity > li {
+      display: inline;
+      margin-left: 37.5px;
+    }

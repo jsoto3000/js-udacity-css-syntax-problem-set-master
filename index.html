@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <title>Udacity CSS Sytax Problem Set</title>
+
+
+    <!-- Instructions: Add a link to the stylesheet 'styles.css' at the designated spot -->
+
+    <!-- Hints:
+
+    * sample link: <link href="path-to-stylesheet/stylesheet.css" rel="stylesheet">
+    * path to stylesheet: "css/styles.css"
+
+    -->
+
+    <head>
+
+        <meta charset="utf-8"> 
+        <link href="css/styles.css" rel=stylesheet>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+    </head>
+
+<body>
+
+  <!-- Instructions: Replicate the same styling seen in the Udacity text below. -->
+  <!-- For this consolidated index.html file see css in linked stylesheet-->
+  
+  <h1 class="udacity-text">Udacity <br>
+  CSS Syntax Problem Set</h1>
+
+    <h2>Style an Image Quiz</h2>
+
+        <!-- Instructions: Replicate the same styling seen in the kitten image below. -->
+
+        <!-- Image credit: Nicolas Suzor, https://www.flickr.com/photos/nicsuzor/ - via Flickr, Creative Commons. -->
+
+        <img src="http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/kitten.jpg" alt="kitten" class="kitten-image">
+
+    <br>
+    <br>
+    <br>
+
+    <h2>Writing Selectors Exercise</h2>
+          
+          <!-- Remember that ids should reflect only a single element, while classes can be used over and over again. -->
+          
+      <div id="menu">
+        <h3 class="item-selector">Chicken Clay Pot</h3>
+          <img src="img/clay-pot.jpg" alt="clay pot" class="picture-selector">
+            <p class="description-selector">Crispy rice baked in clay pot topped with chicken and vegetables</p>
+      </div>
+
+          <!-- Remember that you can use multiple CSS classes for the same element, but only one id. -->
+
+    <br>
+    <br>
+    <br>
+
+    <h2>Using Attributes Quiz</h2>
+
+    <!--  At this point, only practiced using tag, id, and class selectors, but there are actually other types of selectors. -->
+
+    <!-- Remember that you can use multiple CSS classes for the same element, but only one id. -->
+          	
+
+      <div id="to-do-list">
+      
+          		<h1 class="title-list">My To-Do List</h1>
+
+          		<h2 class="title-list underline-list">Chores</h2>
+
+          		<ul class="list">
+
+          			<li>load the diswasher</li>
+          			<li>vacuum living room</li>
+          			<li>take out garbage</li>
+          			<li class="finished-list">sweep the garage</li>
+
+          		</ul>
+          		
+              <h2 class="title-list underline-list">Homework</h2>
+          		
+                <ul class="list">
+          		
+                	<li class="finished-list">brainstorm ideas for Science project</li>
+            			<li class="finished-list">finish Calculus 2 problems</li>
+            			<li>study for Programming midterm :P</li>
+                  <li>finish Project 0 on Udacity FEND</li>
+            			<li class="finished-list">find sources for Biology research paper</li>
+            			<li>read first two chapters of The Art of War</li>
+          		
+                </ul>
+              
+              <h2 class="title-list underline-list">Party</h2>
+              
+                <ul class="list">
+                     
+                  <li class="finished-list">send out invitations</li>
+                  <li>reserve party room at restaurant</li>
+                  <li>order the cake!</li>
+
+                </ul>
+
+    	</div>
+
+    <br>
+    <br>
+    <br>
+
+    <h2>Slack Card Quiz</h2>
+             
+     <section id="slack-card">
+            
+     <div class="card">
+
+      <div class="top">
+
+        <!-- Here we changed the word from 'Stufent' to 'Student' -->
+
+        <h3 class="name">Udacity Student <span class="status"></span></h3>
+
+        <p class="title">Learner Extraordinaire</p>
+
+      </div>
+
+      <div class="middle">
+
+        <div class="time">12:34 PM local time</div>
+
+      </div>
+
+      <div class="bottom">
+
+        <button class="profile-action">View preferences</button>
+        <button class="profile-action">Open account settings</button>
+        <button class="profile-action">Edit your profile</button>
+        <button class="profile-action">View your files</button>
+        <button class="profile-action">Set yourself away</button>
+
+      </div>
+
+    </div>
+          
+    </section>
+
+  <br>
+  <br>
+  <br> 
+
+  <h2>Link to a Stylesheet Quiz</h2>
+
+   <div class="container">
+  
+    <div class="portfolio">
+  
+      <h1>My Portfolio</h1>
+  
+      <div class="item">
+  
+        <img src="img/out-cold.png" width="300">
+        <span>This specific design features a 3D floating mountain above a weathered, rugged font to insinuate a winter outdoor theme. This logo would be a perfect fit for an outdoor product company or ski resort.</span>
+  
+      </div>
+  
+      <div class="item">
+  
+        <img src="img/retro-beach.png" width="300">
+        <span>This specific design features a beach-themed fading sunset with palm trees. The fading vertical bars in the sun resemble warmth as it fades away into the sunset.</span>
+  
+      </div>
+  
+    </div>
+  
+  </div>
+
+  <br>
+  <br>
+  <br> 
+  
+  <h2>Udacity Site Header</h2>
+
+  <header>
+    
+    <div class="vertical-centerer flex-container">
+      
+      <div class="flex-container space-between header-content">
+        
+        <div>
+         
+          <span>
+            
+            <img class="logo" src="svg/Udacity_Logo_SVG_200x35.svg" alt="Udacity Logo">
+          
+          </span>
+        
+        </div>
+        
+        <div>
+        
+          <ul class="menu-udacity">
+        
+            <li>Nanodegree</li>
+            <li>Catalog</li>
+            <li>Classroom</li>
+          
+          </ul>
+        
+        </div>
+      
+      </div>
+    
+    </div>
+  
+  </header>
+    
+    <section class="section-udacity">
+    
+    <p>
+      There! Doesn't that look better?
+    </p>
+
+    <p>
+      There are a lot of different CSS properties - it's going to take some practice and research to learn which to use and when.
+    </p>
+    
+    </section>
+
+</html>
